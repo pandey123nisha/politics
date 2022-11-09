@@ -4,6 +4,7 @@ import * as personalinfo from './modules/personalinfo'
 import * as galleries from './modules/galleries'
 import * as interviews from './modules/interviews'
 import * as videos from './modules/videos'
+import * as lekh from './modules/lekh'
 
 Vue.use(Vuex)
 
@@ -12,6 +13,7 @@ export default new Vuex.Store({
     personalinfo,
     galleries,
     interviews,
-    videos
+    videos,
+    lekh
   }
 })

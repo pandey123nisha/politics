@@ -153,7 +153,7 @@ h1 {
   text-align: center;
   /* color: red; */
   padding: 10px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: bold;
 }
 
