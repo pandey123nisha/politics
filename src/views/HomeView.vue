@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h1>भिडियो</h1>
+            <h1>मिडिया कभरेज</h1>
             <div class="row">
               <div class="col-md-6" v-for="(video,index) in videos" :key="index">
                 <LazyYoutube

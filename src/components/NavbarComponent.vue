@@ -29,6 +29,10 @@
           </li>
 
           <li class="nav-item">
+            <a class="nav-link" href="#" @click.prevent="$router.push({name:'lekh'})">लेख रचना </a>
+          </li>
+
+          <li class="nav-item">
             <a class="nav-link" href="#" @click.prevent="$router.push({name:'gallery'})">फोटो ग्यालरी</a>
           </li>
          
