@@ -1,13 +1,13 @@
 <template>
  <template-view>
-    <h1>About Page</h1>
+    <h1>Interview Page</h1>
  </template-view>
 </template>
 
 <script>
 import TemplateView from "./TemplateView.vue"
 export default {
-  name:'AboutView',
+name:'InterviewView',
   components:{
     TemplateView
   }
