@@ -9,7 +9,7 @@
 import { mapActions } from 'vuex'
 export default {
   methods:{
-    ...mapActions(['fetchPersonalInfo','fetchGalleries','fetchVideos','fetchInterviews','fetchLekhs'])
+    ...mapActions(['fetchPersonalInfo','fetchGalleries','fetchVideos','fetchInterviews','fetchLekhs', 'fetchInterview'])
   },
 
   created(){
@@ -18,6 +18,7 @@ export default {
     this.fetchVideos()
     this.fetchInterviews()
     this.fetchLekhs()
+    this.fetchInterview()
   }
 }
 </script>
